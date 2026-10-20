@@ -19,7 +19,7 @@
 |---|---|
 | MCP-сервер, stdio-мост (MIT) | [srezai-mcp-web-search](https://github.com/srezai-team/srezai-mcp-web-search) |
 | SDK: Python и JS/TypeScript | [srezai-web-search-sdk](https://github.com/srezai-team/srezai-web-search-sdk) |
-| Узел для n8n (автоматизация без кода) | [n8n-nodes-srezai](https://github.com/srezai-team/n8n-nodes-srezai) |
+| Узел для n8n (автоматизация без кода) | [n8n-nodes-srezai-web-search-pro](https://github.com/srezai-team/n8n-nodes-srezai-web-search-pro) |
 | Скилл для Claude Code и DSH | [srezai-web-search-pro-skill](https://github.com/srezai-team/srezai-web-search-pro-skill) |
 | Зеркало на GitVerse | [gitverse.ru/a1_ai_a4b/srezai-mcp](https://gitverse.ru/a1_ai_a4b/srezai-mcp) |
 
@@ -86,7 +86,7 @@ strong Russian-web coverage and pay-per-result pricing instead of a subscription
 |---|---|
 | MCP server, stdio bridge (MIT) | [srezai-mcp-web-search](https://github.com/srezai-team/srezai-mcp-web-search) |
 | SDK: Python and JS/TypeScript | [srezai-web-search-sdk](https://github.com/srezai-team/srezai-web-search-sdk) |
-| n8n community node | [n8n-nodes-srezai](https://github.com/srezai-team/n8n-nodes-srezai) |
+| n8n community node | [n8n-nodes-srezai-web-search-pro](https://github.com/srezai-team/n8n-nodes-srezai-web-search-pro) |
 | Skill for Claude Code and DSH | [srezai-web-search-pro-skill](https://github.com/srezai-team/srezai-web-search-pro-skill) |
 | GitVerse mirror | [gitverse.ru/a1_ai_a4b/srezai-mcp](https://gitverse.ru/a1_ai_a4b/srezai-mcp) |
 

@@ -5,7 +5,7 @@
 # срезAI (srezai) - MCP-сервер для веб-поиска и чтения страниц
 
 **Веб-доступ для ИИ-агентов: поиск в интернете, чтение страниц в чистый Markdown
-и извлечение данных по схеме — 12 инструментов через MCP (Model Context Protocol),
+извлечение данных по схеме и субтитры видео — 13 инструментов через MCP (Model Context Protocol),
 сильное покрытие рунета, оплата за результат вместо подписки.**
 
 - **MCP-сервер (remote):** `https://srezai.ru/api/mcp` — Streamable HTTP, ключ в заголовке `Authorization: Bearer` · [документация](https://srezai.ru/docs/mcp)
@@ -23,7 +23,7 @@
 | Скилл для Claude Code и DSH | [srezai-web-search-pro-skill](https://github.com/srezai-team/srezai-web-search-pro-skill) |
 | Зеркало на GitVerse | [gitverse.ru/a1_ai_a4b/srezai-mcp](https://gitverse.ru/a1_ai_a4b/srezai-mcp) |
 
-## Двенадцать инструментов
+## Тринадцать инструментов
 
 `web_search` — поиск в вебе (до 30 результатов, фильтры по домену, языку, свежести) ·
 `image_search` · `read_url` — страница в Markdown, с рендером JavaScript ·
@@ -31,6 +31,7 @@
 `extract` — поля по JSON-схеме · `map` и `crawl` — карта сайта и обход раздела ·
 `verify_claim` — проверка утверждения с дословными цитатами ·
 `answer_search` и `deep_research` — готовый ответ по источникам ·
+`yt_srt` — субтитры YouTube (ручные или авто) в контекст агента, 1 кредит за ролик ·
 `get_usage` — баланс и квоты, бесплатно
 
 ## С чего начать
@@ -63,15 +64,15 @@ Cursor, n8n и другие).
 **Нужен ли ключ?** Да, ключ создаётся в личном кабинете; проверка баланса
 (`get_usage`) бесплатна. Стартовый бонус начисляется после подтверждения Telegram.
 
-**Сколько инструментов?** Двенадцать MCP-инструментов; список и цены сервер отдаёт
+**Сколько инструментов?** Тринадцать MCP-инструментов; список и цены сервер отдаёт
 сам, поэтому в клиентских пакетах они не дублируются.
 
 ---
 
 ## English
 
-**Web access for AI agents** — web search, page reading as clean Markdown and
-schema-based extraction, exposed as **12 MCP (Model Context Protocol) tools**, with
+**Web access for AI agents** — web search, page reading as clean Markdown,
+schema-based extraction and YouTube transcripts, exposed as **13 MCP (Model Context Protocol) tools**, with
 strong Russian-web coverage and pay-per-result pricing instead of a subscription.
 
 - **Remote MCP server:** `https://srezai.ru/api/mcp` — Streamable HTTP, API key via `Authorization: Bearer` · [docs](https://srezai.ru/docs/mcp)
@@ -89,10 +90,10 @@ strong Russian-web coverage and pay-per-result pricing instead of a subscription
 | Skill for Claude Code and DSH | [srezai-web-search-pro-skill](https://github.com/srezai-team/srezai-web-search-pro-skill) |
 | GitVerse mirror | [gitverse.ru/a1_ai_a4b/srezai-mcp](https://gitverse.ru/a1_ai_a4b/srezai-mcp) |
 
-### Twelve tools
+### Thirteen tools
 
 `web_search` · `image_search` · `read_url` · `read_urls` · `fetch_page` · `extract`
-· `verify_claim` · `answer_search` · `deep_research` · `map` · `crawl` · `get_usage`
+· `verify_claim` · `answer_search` · `deep_research` · `map` · `crawl` · `yt_srt` · `get_usage`
 
 ### Get started
 

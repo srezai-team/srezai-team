@@ -5,13 +5,13 @@
 # срезAI (srezai) - MCP-сервер для веб-поиска и чтения страниц
 
 **Веб-доступ для ИИ-агентов: поиск в интернете, чтение страниц в чистый Markdown
-извлечение данных по схеме и субтитры видео — 13 инструментов через MCP (Model Context Protocol),
+извлечение данных по схеме и субтитры видео — 12 инструментов через MCP (Model Context Protocol), 13-й (`deep_research`) в разработке,
 сильное покрытие рунета, оплата за результат вместо подписки.**
 
 - **MCP-сервер (remote):** `https://srezai.ru/api/mcp` — Streamable HTTP, ключ в заголовке `Authorization: Bearer` · [документация](https://srezai.ru/docs/mcp)
 - **API-ключи и баланс:** [srezai.ru/dashboard](https://srezai.ru/dashboard)
 - **Официальный реестр MCP:** запись `ru.srezai/search` — [проверить версии](https://registry.modelcontextprotocol.io/v0/servers/ru.srezai%2Fsearch/versions)
-- **Каталоги:** [Smithery](https://smithery.ai/servers/srezai/srezai-search) · [Glama](https://glama.ai/mcp/servers/srezai-team/srezai-mcp)
+- **Каталоги:** [Glama](https://glama.ai/mcp/servers/srezai-team/srezai-mcp-web-search) · [Реестр MCP (поиск)](https://registry.modelcontextprotocol.io/v0/servers?search=srezai)
 
 ## Репозитории
 
@@ -20,7 +20,7 @@
 | MCP-сервер, stdio-мост (MIT) | [srezai-mcp-web-search](https://github.com/srezai-team/srezai-mcp-web-search) |
 | SDK: Python и JS/TypeScript | [srezai-web-search-sdk](https://github.com/srezai-team/srezai-web-search-sdk) |
 | Узел для n8n (автоматизация без кода) | [n8n-nodes-srezai-web-search-pro](https://github.com/srezai-team/n8n-nodes-srezai-web-search-pro) |
-| Скилл для Claude Code и DSH | [srezai-web-search-pro-skill](https://github.com/srezai-team/srezai-web-search-pro-skill) |
+| Скилл для Claude Code и DSH | [srezai-web-search-pro-skill](https://github.com/srezai-team/srezai-web-search-pro-skills) |
 | Зеркало на GitVerse | [gitverse.ru/a1_ai_a4b/srezai-mcp](https://gitverse.ru/a1_ai_a4b/srezai-mcp) |
 
 ## Тринадцать инструментов
@@ -72,13 +72,13 @@ Cursor, n8n и другие).
 ## English
 
 **Web access for AI agents** — web search, page reading as clean Markdown,
-schema-based extraction and YouTube transcripts, exposed as **13 MCP (Model Context Protocol) tools**, with
+schema-based extraction and YouTube transcripts, exposed as **12 MCP (Model Context Protocol) tools** (`deep_research` in development), with
 strong Russian-web coverage and pay-per-result pricing instead of a subscription.
 
 - **Remote MCP server:** `https://srezai.ru/api/mcp` — Streamable HTTP, API key via `Authorization: Bearer` · [docs](https://srezai.ru/docs/mcp)
 - **API keys & balance:** [srezai.ru/dashboard](https://srezai.ru/dashboard)
 - **Official MCP Registry entry:** `ru.srezai/search` — [versions](https://registry.modelcontextprotocol.io/v0/servers/ru.srezai%2Fsearch/versions)
-- **Catalogs:** [Smithery](https://smithery.ai/servers/srezai/srezai-search) · [Glama](https://glama.ai/mcp/servers/srezai-team/srezai-mcp)
+- **Catalogs:** [Glama](https://glama.ai/mcp/servers/srezai-team/srezai-mcp-web-search) · [MCP Registry (search)](https://registry.modelcontextprotocol.io/v0/servers?search=srezai)
 
 ### Repositories
 
@@ -87,7 +87,7 @@ strong Russian-web coverage and pay-per-result pricing instead of a subscription
 | MCP server, stdio bridge (MIT) | [srezai-mcp-web-search](https://github.com/srezai-team/srezai-mcp-web-search) |
 | SDK: Python and JS/TypeScript | [srezai-web-search-sdk](https://github.com/srezai-team/srezai-web-search-sdk) |
 | n8n community node | [n8n-nodes-srezai-web-search-pro](https://github.com/srezai-team/n8n-nodes-srezai-web-search-pro) |
-| Skill for Claude Code and DSH | [srezai-web-search-pro-skill](https://github.com/srezai-team/srezai-web-search-pro-skill) |
+| Skill for Claude Code and DSH | [srezai-web-search-pro-skill](https://github.com/srezai-team/srezai-web-search-pro-skills) |
 | GitVerse mirror | [gitverse.ru/a1_ai_a4b/srezai-mcp](https://gitverse.ru/a1_ai_a4b/srezai-mcp) |
 
 ### Thirteen tools
